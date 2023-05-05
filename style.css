@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E0AD;
+    margin: 0px;
+}
+
+header {
+    margin: -8px;
+    padding: 10px;
+    background-image: linear-gradient( to top,#1A5C38, #1E6B41, #298C55, #31AE68, #3BD07E);
+}
+
+h1#titulo {
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    word-spacing: 2px;
+    letter-spacing: -3px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.slogan {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav {
+    text-align: left;
+    font-weight: bolder;
+    
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #2eac67;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav > a:hover{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #30a765;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 9px 65px -10px 65px;
+    padding: 10px;
+}
+
+.especialtitulo {
+    font-family: 'android';
+    padding-left: 4px;
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+.fontespeciais {
+    font-family: 'android';
+    padding-left: 4px;
+    color: #1A5C38;
+    font-weight: bold;
+    background-image: linear-gradient( to right, #90caab85, #98e0b885, #9bd4b381, #ffffff);
+}
+
+p {
+    font-weight: 200;
+    text-indent: 20px;
+}
+
+source#imagemp {
+    width: 100%;
+}
+
+img#imagemg {
+    width: 100%;
+}
+
+source#mulherp {
+    width: 100%;
+}
+
+img#mulherg {
+    width: 100%;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+div#video {
+    padding: 15px 25px 15px 25px;
+    background-color: #1A5C38;
+}
+
+iframe {
+   width: 100%;
+}
+
+.caixa {
+    background-color: #C5EBD6;
+    padding: 5px;
+    margin-top: -16px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.pcaixa {
+    background-color: #2FA865;
+    color: #ffffff;
+    padding: 10px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+
+ul {
+  display: inline-block;
+  margin-right: auto;  
+  
+}
+
+footer {
+    background-color: #1A5C38;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3%;
+    padding: 0.5%;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    color: #1E6B41;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li::before {
+    content: '✔ ';
+}
+
+
+
+
+
